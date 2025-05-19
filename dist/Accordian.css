@@ -1,0 +1,41 @@
+.accordion {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.accordion-title {
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  background: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.accordion-title:hover {
+  background: #e9ecef;
+}
+
+.accordion-icon {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.accordion-content {
+  padding: 0 16px;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  overflow: hidden;
+}
