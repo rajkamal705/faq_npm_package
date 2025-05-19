@@ -1,4 +1,6 @@
 src/
-node_modules/
 .babelrc
 .gitignore
+node_modules/
+*.log
+.DS_Store
